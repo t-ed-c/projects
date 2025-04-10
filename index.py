@@ -55,7 +55,7 @@ def guess_the_number():
         else:
             print(f"Congratulations, {name}! You guessed the number {number_to_guess} in {attempts} attempts.")
             
-            # Update high score
+            # Updates highscores
             if high_score is None or attempts < high_score:
                 high_score = attempts
                 print(f"New high score: {high_score} attempts!")
